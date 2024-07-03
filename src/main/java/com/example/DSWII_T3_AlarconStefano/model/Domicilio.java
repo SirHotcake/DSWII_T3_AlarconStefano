@@ -10,7 +10,7 @@ public class Domicilio {
     private String descDomicilio;
     private Integer nroDomicilio;
     private String refDomicilio;
-
+//
     public Integer getIdDomicilio() {
         return idDomicilio;
     }
