@@ -11,7 +11,7 @@ public class Empleado {
     private String nombre;
     private String apellido;
     private Date fechaContrat;
-
+//
     @ManyToOne
     @JoinColumn(name = "idDomicilio")
     private Domicilio domicilio;
