@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/pubs-dto")
 public class PublicationController {
-
+//
     @Autowired
     private PublicacionRepository publicacionRepository;
 
