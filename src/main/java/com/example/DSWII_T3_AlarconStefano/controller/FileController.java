@@ -19,7 +19,7 @@ public class FileController {
         if (!file.getContentType().equals("image/png")) {
             return ResponseEntity.status(HttpStatus.UNSUPPORTED_MEDIA_TYPE).body("Solo se permiten archivos PNG");
         }
-
+//
         try {
             String uploadDir = "Images";
             File uploadDirFile = new File(uploadDir);
